@@ -7,5 +7,5 @@ Package.describe({
 
 Package.onUse(function(api) {
    api.versionsFrom("METEOR@0.9.0");
-   api.use(["fourseven:scss@0.9.5", "mrt:bourbon@3.1.8", "mrt:neat@1.5.0"], ['client', 'server']);
+   api.use(["fourseven:scss@0.9.5", "ciara:bourbon@3.1.8", "ciara:neat@1.5.0"], ['client', 'server']);
 });
